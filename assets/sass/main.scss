@@ -1,0 +1,30 @@
+@import 'vendors/boostrap-4.3.1/bootstrap.scss';
+
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+@import 'abstracts/placeholders';
+@import 'abstracts/variables';
+
+@import 'base/base';
+@import 'base/resets';
+@import 'base/typography';
+
+@import 'components/buttons';
+@import 'components/carousel';
+@import 'components/cover';
+@import 'components/dropdown';
+
+@import 'layout/header';
+@import 'layout/nav';
+@import 'layout/videos';
+@import 'layout/main';
+@import 'layout/grid';
+@import 'layout/caracteristicas';
+@import 'layout/precios';
+@import 'layout/footer';
+
+@import 'pages/contact';
+@import 'pages/home';
+
+@import 'themes/admin';
+@import 'themes/theme';

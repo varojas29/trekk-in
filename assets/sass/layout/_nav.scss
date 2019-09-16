@@ -1,0 +1,39 @@
+
+.navbar-brand {
+  font-size: $xxx-large;
+  position: relative;
+}
+
+.in {
+  position: absolute;
+  left: 45px;
+  font-weight: $bold;
+}
+.nav-link {
+  font-weight: $regular;
+
+}
+
+.boton1 {
+  border-radius: 0px;
+  background-color: $bblue;
+  color: $white;
+
+}
+
+.boton1:hover {
+  background-color: $mblue;
+  border: 0px;
+  color: $white;
+}
+
+.boton1:focus {
+  background-color: $gray;
+  border: 0px;
+  color: $white;
+}
+
+
+.nav-item2 {
+  list-style: none;
+}

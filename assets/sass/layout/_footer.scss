@@ -1,0 +1,58 @@
+.bg-black {
+  background-color: $raising;
+}
+
+.footer-flex {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 110px;
+  width: 100%;
+  background-color: $raising;
+
+}
+
+.menu, .copyright {
+  display: flex;
+  a {
+    margin-left: 10px;
+    color: $white;
+
+  }
+}
+
+.menu, .copyright h4 {
+  margin-left:10px;
+  margin-right: 50px;
+  font-size: $small;
+  color: $white;
+}
+
+.menu {
+  margin-left: 50px;
+}
+
+
+@media only screen and (max-width: 768px) {
+.footer-flex {
+ flex-direction: column;
+}
+.menu {
+  display: center;
+  margin-top: 20px;
+  margin-left:10px;
+  margin-right: 20px;
+  font-size: $x-small;
+  color: $spgray;
+}
+}
+
+@media only screen and (max-width: 768px) {
+  .menu, .copyright h4 {
+    margin-left:0;
+    margin-right: 0;
+    font-size: $x-small;
+    color: $spgray;
+  }
+}

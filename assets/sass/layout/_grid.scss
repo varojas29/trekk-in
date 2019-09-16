@@ -1,0 +1,97 @@
+.big-container {
+  display: grid;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 30px;
+}
+
+
+.grid-main {
+  display: grid;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 200px;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 100px 100px 100px;
+}
+
+.grid-caracteristicas {
+  display: grid;
+  column-gap: 10px;
+  margin-left: 20%;
+  margin-top: 60px;
+  margin-right: 10%;
+  grid-template-columns: 40% 40%;
+  grid-template-rows: 50px 150px;
+}
+
+.grid-precios {
+  display: grid;
+  margin-top: 20px;
+  grid-template-columns:20rem 20rem;
+  grid-column-gap: 80px;
+  margin-left: 26%;
+  margin-top: 60px;
+  position: relative;
+}
+
+
+.precio-1-grid {
+  display: grid;
+
+  grid-template-columns: 20rem;
+  grid-template-rows: 5rem 5rem 12rem 5rem;
+  background-color: $white;
+
+}
+
+.precio-2-grid {
+  display: grid;
+  background-color: $white;
+  grid-template-columns: 20rem;
+  grid-template-rows: 5rem 5rem 12rem 5rem;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+.big-container {
+  margin-left: 25px;
+  margin-right: 25px;
+  // grid-template-columns:  repeat(10, 1fr)
+}
+}
+
+@media only screen and (max-width: 768px) {
+.grid-main {
+  margin-left: 25px;
+  margin-right: 25px;
+  grid-template-columns: repeat(8, 1fr)
+}
+}
+
+@media only screen and (max-width: 768px) {
+.grid-caracteristicas {
+  grid-template-columns: repeat(9, 1fr);
+  margin-left: 20px;
+  margin-right: 20px;
+  grid-column-gap: 0px;
+}
+}
+
+@media only screen and (max-width: 768px) {
+.grid-precios {
+      margin-top: 10px;
+      grid-template-columns: auto;
+      grid-gap: 20px;
+      margin-left:5%;
+      margin-right: 5%;
+      position: static;
+}
+}

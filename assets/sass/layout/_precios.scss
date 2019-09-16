@@ -1,0 +1,100 @@
+.bg-price {
+  width: 100%;
+  margin-top: -20px;
+  position: absolute;
+  top: 83rem;
+  z-index: -1;
+}
+
+.precio1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+
+.precio2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+
+.titulo-precio-principal {
+  margin-top: 200px;
+  color: $white;
+  text-align: center;
+  font-weight: $bold;
+  font-size: $x-large;
+}
+
+.titulo-precios {
+  font-weight: $extra-light;
+  font-size: $x-large;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.precio-precio {
+  font-weight: $bold;
+  font-size: $xx-large;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  text-align: center;
+
+}
+
+.boton3 {
+  grid-row-start: 4;
+  grid-row-end: 5;
+  margin-top: 10%;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  margin: 20px;
+  border-radius: 0px;
+  background-color: $bblue;
+  color: $white;
+  border: 0px;
+  font-weight: $bold;
+}
+
+.boton3:hover {
+  background-color: $mblue;
+  border: 0px;
+  color: $white;
+}
+
+.boton3:focus {
+  background-color: $gray;
+  border: 0px;
+  color: $white;
+}
+
+.linea {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 5;
+
+}
+
+.grafico {
+  animation: grafico 4s infinite;
+}
+
+
+@media only screen and (max-width: 768px) {
+.bg-price {
+  width: auto;
+  height: 1200px;
+  clip: rect(0px,375px,1300px,0px);
+  margin-top: 58px;
+}
+}
